@@ -47,9 +47,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_semcosh:system/etc/wifi/nvram_net.txt_semcosh \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/camera.vendor.piranha.so:system/lib/hw/camera.vendor.piranha.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/vendor-camera.piranha.so:system/lib/hw/vendor-camera.piranha.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libexif.so:system/lib/libexif.so \
     $(LOCAL_PATH)/proprietary/system/lib/libexifa.so:system/lib/libexifa.so \
     $(LOCAL_PATH)/proprietary/system/lib/libjpega.so:system/lib/libjpega.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmedia_native.so:system/lib/libmedia_native.so \
@@ -66,6 +67,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libdmcFaceEngine3GVT.so:system/lib/libdmcFaceEngine3GVT.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecface.so:system/lib/libsecface.so \
     $(LOCAL_PATH)/proprietary/system/lib/libskib.so:system/lib/libskib.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libti_chroma_nf_lib.so:system/lib/libti_chroma_nf_lib.so \
     $(LOCAL_PATH)/proprietary/system/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
